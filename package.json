@@ -1,0 +1,39 @@
+{
+  "name": "restapi",
+  "version": "0.0.0",
+  "private": true,
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "npm-run-all -p deploy:*",
+    "deploy:compile": "webpack --watch",
+    "deploy:www": "node ./bin/www"
+  },
+  "dependencies": {
+    "ajax-request": "^1.2.1",
+    "async": "^2.0.0-rc.6",
+    "body-parser": "~1.13.2",
+    "consolidate": "^0.14.0",
+    "cookie-parser": "~1.3.5",
+    "express": "~4.13.1",
+    "jquery": "^1.12.4",
+    "json-loader": "^0.5.4",
+    "lodash": "^4.11.1",
+    "jade": "~1.11.0",
+    "moment": "^2.13.0",
+    "morgan": "~1.6.1",
+    "npm-run-all": "^2.1.1",
+    "serve-favicon": "~2.3.0",
+    "superagent": "^1.8.3",
+    "babel-polyfill": "^6.9.1"
+  },
+  "devDependencies": {
+    "eslint": "^2.10.2",
+    "babel-core": "^6.11.4",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "webpack": "^1.13.1"
+  }
+}
