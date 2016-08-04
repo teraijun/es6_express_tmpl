@@ -9,3 +9,5 @@
 `npm install webpack -g`
 
 `npm start`
+
+`localhost:3000`
