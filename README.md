@@ -1,4 +1,4 @@
-# searchResult-2016
+# es6_express_tmpl
 
 ## Install
 
